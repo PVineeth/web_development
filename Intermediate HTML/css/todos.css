@@ -1,0 +1,11 @@
+li {
+    border: 2px solid red;
+}
+
+#needtodo {
+    background: yellow;
+}
+
+.done {
+    text-decoration: line-through;
+}

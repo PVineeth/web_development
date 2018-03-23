@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+    <label for="firstname">First Name:</label>
+    <input name="firstname" id="firstname" type="text" placeholder="John" required>
+    <label for="lastname">Last Name:</label>
+    <input name="lastname" id="lastname" type="text" placeholder="Smith" required>
+    <br/>
+    <label for="male-choice">Male</label>
+    <input name="gender" id="male-choice" type="radio" value="male">
+    <label for="female-choice">Female</label>
+    <input name="gender" id="female-choice" type="radio" value="female">
+    <label for="other-choice">Other</label>
+    <input name="gender" id="other-choice" type="radio" value="other">
+    <br/>
+    <label for="email">Email</label>
+    <input name="email" id="email" type="email" placeholder="your email" required>
+    <label for="password">Password</label>
+    <input name="password" id="password" type="password" pattern="[0-9a-fA-F]{4,8}" required>
+    <br/>
+    <label>Birthday:</label>
+    <select name="month">
+        <option>Month</option>
+        <option>Jan</option>
+    </select>
+    <select name="day">
+        <option>Day</option>
+        <option>7</option>
+    </select>
+    <select name="year">
+        <option>Year</option>
+        <option>1997</option>
+    </select>
+    <br/>
+    <label for="termsandcond">I agree to the terms and conditions</label>
+    <input name="termsandcond" id="termsandcond" type="checkbox">
+    <br/>
+    <input type="submit">
+    </form>
+</body>
+</html>
