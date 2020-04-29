@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Exercise</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form method="GET">
+    <label for="first_name">First Name:</label>
+    <input type="text" name="first_name" id="first_name" placeholder="John" required>
+    <label for="last_name">Last Name:</label>
+    <input type="text" name="last_name" id="last_name" placeholder="Smith" required>
+    <br/>
+    <label for="gender_male">Male</label>
+    <input type="radio" name="gender" id="gender_male" value="Male">
+    <label for="gender_female">Female</label>
+    <input type="radio" name="gender" id="gender_female" value="Female">
+    <label for="gender_other">Other</label>
+    <input type="radio" name="gender" id="gender_other" value="Other">
+    <br/>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="xxxxx@yyyyy.zzz" required>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" placeholder="password" pattern=".{5,10}" required title="Password must be 5 to 10 characters">
+    <br/>
+    <label for="birthday">Birthday:</label>
+    <select name="month" id="birthday">
+        <option value="Month">Month</option>
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+    </select>
+    <select name="day">
+        <option value="Day">Day</option>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+    </select>
+    <select name="year">
+        <option value="Year">Year</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+    </select>
+    <br/>
+    <label for="agree_t_c">I agree to the terms and conditions</label>
+    <input type="checkbox" name="t_c" id="agree_t_c" value="Yes">
+    <br/>
+    <input type="submit">
+</form>
+</body>
+</html>

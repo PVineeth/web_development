@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form method="GET"> <!--By default the action is the same page and method is GET-->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>
+                    <label for="email">Email</label>
+                </th>
+                <th>
+                    <label for="password">Password</label>
+                </th>
+                <th>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!--name and id attributes are not same-->
+                <!--Enforce rules and structure: Presence Validations and Format Validations-->
+                <td><input id="email" name="email" type="email" placeholder="email" required></td>
+                <td><input id="password" name="password" type="password" placeholder="password" required></td>
+                <td><input type="submit"></td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

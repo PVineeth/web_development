@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Forms - Radio Button</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form method="GET"> <!--By default the action is the same page and method is GET-->
+    <label for="dogs">Dogs:</label>
+    <!-- name here is used to group two/more radio buttons. Without it will be two separate radio
+    buttons -->
+    <!-- id is for referencing the input tag somewhere else like in the label -->
+    <!-- required is a boolean attribute -->
+    <input type="radio" name="petChoice" id="dogs" value="Dogs" required>
+    <label for="cats">Cats:</label>
+    <input type="radio" name="petChoice" id="cats" value="Cats" required>
+    <select name="Status">
+        <option value="Studying">Studying</option>
+        <option value="Games">Playing Games!</option>
+        <option value="Sleeping">Sleeping</option>
+    </select>
+    <label for="myBio">My Bio</label>
+    <textarea name="myBio" placeholder="Enter your Bio here" rows="5" cols="5"></textarea>
+
+
+
+    <button>Go!</button>
+
+   
+
+</form>
+</body>
+</html>
