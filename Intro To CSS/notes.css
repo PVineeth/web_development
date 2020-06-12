@@ -1,0 +1,52 @@
+/* 
+CSS = Cascading Style Sheets
+    = adjectives
+
+selector {
+    property: value;
+    anotherProperty: value;
+}
+
+Hexadecimal Color Values:
+# is called the octothorp. It's another term for pound(#) sign.
+#RRGGBB
+
+Another way:
+rgb(100,200,100);
+Each channel - red, green, blue has min. value 0 and max. value 255.
+
+Additional channel:
+rgba(100,200,100,0.5);
+a = alpha channel (controls the transparency of the color - also called opacity).
+a = min. value: 0; max. value = 1
+
+Background:
+Color or Image
+
+Border:
+width, style: (solid, dashed etc.), color
+*/
+
+h1 {
+    color: #00ff84;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgba(100, 255, 255, 1);
+}
+
+h4 {
+    color: rgb(0, 174, 255);
+    background: rgba(200, 82, 10, 0.2);
+    border: 2px solid palegreen;
+}
+
+li {
+    color: rgba(255, 0, 119, 1);
+}
+
+body {
+   /* background: rgba(0, 254, 8, 0.2); */
+    background: url(https://miro.medium.com/max/8576/0*zBu6EBAwjXXXHz-z);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
